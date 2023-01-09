@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+		<members>B2BCommunityService</members>
+		<members>B2BCommunityTestDataFactory</members>
+		<members>LightningActionResponse</members>
+		<members>SocietyModel</members>
+		<members>SocietyService</members>
+		<members>SocietyServiceTest</members>
+		<members>Utils</members>
+		<members>LightningForgotPasswordControllerTest</members>
+		<members>LightningForgotPasswordController</members>
+		<members>LightningLoginFormController</members>
+		<members>LightningLoginFormControllerTest</members>
+		<members>LightningSelfRegisterController</members>
+		<members>LightningSelfRegisterControllerTest</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
+	</types>
+    <types>
+		<members>*</members>
+		<name>Network</name>
+	</types>
+    <types>
+        <members>F_O_B2B_Community</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+		<members>Relation__c.FOCbranchGroupEnabled__c</members>
+		<members>Account.FOCbranchGroupEnabled__c</members>
+		<members>Account.FOCclientEnvironment__c</members>
+		<name>CustomField</name>
+	</types>
+    <types>
+        <members>B2B Community User</members>
+        <name>Profile</name>
+    </types>
+    <version>54.0</version>
+</Package>

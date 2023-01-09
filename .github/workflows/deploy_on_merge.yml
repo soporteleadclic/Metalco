@@ -1,0 +1,79 @@
+# Unique name for this workflow 
+name: Deploy source 
+ 
+# Variables de ejecución 
+env: 
+  PACKAGE_DIR: package.xml 
+  TEST_LEVEL: RunLocalTests 
+ 
+# Cuando se lanza el workflow 
+on:  
+    pull_request: 
+      types: [closed] 
+      branches: 
+      - master 
+      - uat 
+      - develop 
+ 
+# Jobs to be executed 
+jobs: 
+    deploy-source: 
+        if: github.event.pull_request.merged == true 
+        runs-on: ubuntu-latest 
+        steps: 
+            # checkout this repo 
+            - name: Checkout Repo 
+              uses: actions/checkout@v2 
+               
+            - name: 'Instala Salesforce CLI' 
+              run: | 
+                if ! command -v sfdx &> /dev/null; then 
+                    wget https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-linux-x64.tar.xz -q 
+                    mkdir ~/sfdx 
+                    tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1 > /dev/null 
+                    echo "$HOME/sfdx/bin" >> $GITHUB_PATH 
+                    ~/sfdx/bin/sfdx version 
+                fi 
+ 
+            #Descarga JQ para el manejo de JSON 
+            - name: 'Descarga jq' 
+              run: | 
+                if ! command -v jq &> /dev/null; then 
+                  sudo apt-get install jq 
+                fi 
+ 
+            # Guarda la URL del entorno 
+            - name: Setea dinámicamente la URL 
+              id: auth_url_secret_name 
+              run: echo "##[set-output name=name;]$(echo ${GITHUB_BASE_REF^^})_AUTH_URL" 
+               
+            - name: Genera un archivo con la URL 
+              run: echo ${{ secrets[steps.auth_url_secret_name.outputs.name] }} > ./SF_URL.txt 
+ 
+            # Autenticarse en el entorno 
+            - name: 'Autenticacion en SF' 
+              run: sfdx auth:sfdxurl:store -f ./SF_URL.txt -a env 
+ 
+            - name: 'Despliegue' 
+              run: | 
+                sfdx force:source:deploy -u env -x ./paqueteDelta/package/package.xml -l ${{ env.TEST_LEVEL }} --json >./log.json || echo 'Error en despliegue' 
+ 
+            - name: 'Sale del proceso o guarda Id ejecución' 
+              run: | 
+                tempVar=$(jq '.status' ./log.json) 
+                if [[ $tempVar = '0' ]]; then 
+                     echo "Despliegue finalizado" 
+                else 
+                    jq '.result.details.componentFailures' ./log.json > ./error.txt 
+                    cat ./error.txt 
+                    exit 1 
+                fi 
+             
+            # Commit cambios y push 
+            #- name: 'Commit y push de cambios' 
+            #  run: | 
+            #    git config --global user.name "Release Management"; 
+            #    git config --global user.email "arquitectura@leadclic.com"; 
+            #    git add ./executionId.txt; 
+            #    git commit -m 'Eliminado código de ejecución para despliegue rápido'; 
+            #    git push
