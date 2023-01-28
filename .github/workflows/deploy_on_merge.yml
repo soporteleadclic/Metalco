@@ -11,7 +11,7 @@ on:
     pull_request: 
       types: [closed] 
       branches: 
-      - master 
+      - master
       - uat 
       - develop 
  

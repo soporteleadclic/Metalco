@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>DocumentType__c</fieldNames>
+        <fieldNames>DocumentNumber__c</fieldNames>
+        <info>&lt;p&gt;Al convertir un lead se creará automáticamente una cuenta, un contacto y una oportunidad&lt;/p&gt;</info>
+        <picklistValueName>Closed - Converted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>MobilePhone</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <picklistValueName>Open - Not Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>NumberOfEmployees</fieldNames>
+        <fieldNames>Title</fieldNames>
+        <fieldNames>Industry</fieldNames>
+        <fieldNames>Rating</fieldNames>
+        <picklistValueName>Working - Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

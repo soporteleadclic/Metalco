@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>01-ACEROS EN BARRAS</fullName>
+        <default>false</default>
+        <label>01-ACEROS EN BARRAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>02-CHAPAS</fullName>
+        <default>false</default>
+        <label>02-CHAPAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>03-PRODUCTOS PARA HORMIGON ARMADO</fullName>
+        <default>false</default>
+        <label>03-PRODUCTOS PARA HORMIGON ARMADO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>04-PRODUCTOS ESPECIALES</fullName>
+        <default>false</default>
+        <label>04-PRODUCTOS ESPECIALES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>05-ACEROS ESPECIALES</fullName>
+        <default>false</default>
+        <label>05-ACEROS ESPECIALES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>06-TUBOS DE ACERO</fullName>
+        <default>false</default>
+        <label>06-TUBOS DE ACERO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>07-ALUMINIO</fullName>
+        <default>false</default>
+        <label>07-ALUMINIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>08-FUNDICIONES - ACCESORIOS</fullName>
+        <default>false</default>
+        <label>08-FUNDICIONES - ACCESORIOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>09-METALES NO FERROSOS - TUBO DE COBRE</fullName>
+        <default>false</default>
+        <label>09-METALES NO FERROSOS - TUBO DE COBRE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>10-SISTEMAS DE ALAMBRADO Y TREFILADO</fullName>
+        <default>false</default>
+        <label>10-SISTEMAS DE ALAMBRADO Y TREFILADO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>11-ACEROS INOXIDABLES</fullName>
+        <default>false</default>
+        <label>11-ACEROS INOXIDABLES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>12-PERFILES EN FRIO</fullName>
+        <default>false</default>
+        <label>12-PERFILES EN FRIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>13-PRODUCTOS ANTIABRASION</fullName>
+        <default>false</default>
+        <label>13-PRODUCTOS ANTIABRASION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>21-SISTEMA DE CARPINTERIA Y FACHADA DE ACERO</fullName>
+        <default>false</default>
+        <label>21-SISTEMA DE CARPINTERIA Y FACHADA DE ACERO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>25-PLASTICOS INDUSTRIALES Y TECNICOS</fullName>
+        <default>false</default>
+        <label>25-PLASTICOS INDUSTRIALES Y TECNICOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>28-TRATAMIENTO DE AGUAS - ALMACENAMIENTO - BOMBEO</fullName>
+        <default>false</default>
+        <label>28-TRATAMIENTO DE AGUAS - ALMACENAMIENTO - BOMBEO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>30-PLASTICOS DE CONSTRUCCION, OBRA PUBLICA E INDUSTRIA</fullName>
+        <default>false</default>
+        <label>30-PLASTICOS DE CONSTRUCCION, OBRA PUBLICA E INDUSTRIA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>31-PRODUCTOS DE HORMIGON, CEMENTO Y GRES</fullName>
+        <default>false</default>
+        <label>31-PRODUCTOS DE HORMIGON, CEMENTO Y GRES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>32-PISCINA</fullName>
+        <default>false</default>
+        <label>32-PISCINA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>34-RIEGO - FUENTE</fullName>
+        <default>false</default>
+        <label>34-RIEGO - FUENTE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>35-BOMBAS</fullName>
+        <default>false</default>
+        <label>35-BOMBAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>38-ENERGIA RENOVABLE - CLIMATIZACION - VENTILACION - ELEC.</fullName>
+        <default>false</default>
+        <label>38-ENERGIA RENOVABLE - CLIMATIZACION - VENTILACION - ELEC.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>39-CHATARRAS PRODUCIDAS PARA HORMIGON ARMADO</fullName>
+        <default>false</default>
+        <label>39-CHATARRAS PRODUCIDAS PARA HORMIGON ARMADO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>40-SANITARIO</fullName>
+        <default>false</default>
+        <label>40-SANITARIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>41-FONTANERIA - SUSTENTACION</fullName>
+        <default>false</default>
+        <label>41-FONTANERIA - SUSTENTACION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>42-RACORES PARA FONTANERÍA Y OBRAS PÚBLICAS</fullName>
+        <default>false</default>
+        <label>42-RACORES PARA FONTANERÍA Y OBRAS PÚBLICAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>43-TORNILLERIA</fullName>
+        <default>false</default>
+        <label>43-TORNILLERIA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>44-FIJACIONES Y ANCLAJES</fullName>
+        <default>false</default>
+        <label>44-FIJACIONES Y ANCLAJES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>45-ESTANQUEIDAD</fullName>
+        <default>false</default>
+        <label>45-ESTANQUEIDAD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>46-ELEVACION Y MOVIMENTO CARGAS</fullName>
+        <default>false</default>
+        <label>46-ELEVACION Y MOVIMENTO CARGAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>49-GASES INDUSTRIALES</fullName>
+        <default>false</default>
+        <label>49-GASES INDUSTRIALES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>52-ELECTRICIDAD E ILUMINACION</fullName>
+        <default>false</default>
+        <label>52-ELECTRICIDAD E ILUMINACION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>53-MATERIAL DE EQUIPAMIENTO</fullName>
+        <default>false</default>
+        <label>53-MATERIAL DE EQUIPAMIENTO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>54-ABRASIVOS</fullName>
+        <default>false</default>
+        <label>54-ABRASIVOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>55-QUIMICA DE LA CONSTRUCCION, COLAS, MASILLAS Y ADHESIVOS</fullName>
+        <default>false</default>
+        <label>55-QUIMICA DE LA CONSTRUCCION, COLAS, MASILLAS Y ADHESIVOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>56-SUMINISTROS VARIOS</fullName>
+        <default>false</default>
+        <label>56-SUMINISTROS VARIOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>58-MAQUINAS DE TALLER HERRAMIENTA Y ACCESORIOS</fullName>
+        <default>false</default>
+        <label>58-MAQUINAS DE TALLER HERRAMIENTA Y ACCESORIOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>60-PRODUCTOS DE AISLAMIENTO Y DE REVESTIMIENTO</fullName>
+        <default>false</default>
+        <label>60-PRODUCTOS DE AISLAMIENTO Y DE REVESTIMIENTO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>61-MATERIAL DE CONSTRUCCION Y OBRAS PUBLICAS</fullName>
+        <default>false</default>
+        <label>61-MATERIAL DE CONSTRUCCION Y OBRAS PUBLICAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>65-TUBOS Y ACCESORIOS</fullName>
+        <default>false</default>
+        <label>65-TUBOS Y ACCESORIOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>67-MATERIAL Y HERRAMIENTAS PARA LA AGRICULTURA</fullName>
+        <default>false</default>
+        <label>67-MATERIAL Y HERRAMIENTAS PARA LA AGRICULTURA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>68-MATERIAL DE BODEGA Y MATERIAL AGRARIO</fullName>
+        <default>false</default>
+        <label>68-MATERIAL DE BODEGA Y MATERIAL AGRARIO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>70-EPI - HIGIENE - SEGURIDAD</fullName>
+        <default>false</default>
+        <label>70-EPI - HIGIENE - SEGURIDAD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>71-SOLDADURA LLAMA</fullName>
+        <default>false</default>
+        <label>71-SOLDADURA LLAMA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>72-SOLDADURA ELECTRICA</fullName>
+        <default>false</default>
+        <label>72-SOLDADURA ELECTRICA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>73-HERRAMIENTAS ELECTROPORTATIL</fullName>
+        <default>false</default>
+        <label>73-HERRAMIENTAS ELECTROPORTATIL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>74-COMPRESORES, UTILLAJE Y MATERIAL NEUMATICO</fullName>
+        <default>false</default>
+        <label>74-COMPRESORES, UTILLAJE Y MATERIAL NEUMATICO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>75-MEDICION CONTROL TRAZADO MARCADO</fullName>
+        <default>false</default>
+        <label>75-MEDICION CONTROL TRAZADO MARCADO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>76-HERRAMIENTAS DE MANO</fullName>
+        <default>false</default>
+        <label>76-HERRAMIENTAS DE MANO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>77-HERRAMIENTAS DE CORTE</fullName>
+        <default>false</default>
+        <label>77-HERRAMIENTAS DE CORTE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>78-TRANSMISION</fullName>
+        <default>false</default>
+        <label>78-TRANSMISION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>79-FERRETERIA DE CONSTRUCCION Y MOBILIARIO (CERRAJERÍA)</fullName>
+        <default>false</default>
+        <label>79-FERRETERIA DE CONSTRUCCION Y MOBILIARIO (CERRAJERÍA)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>80-SUMINISTROS PARA AUTOMOCION</fullName>
+        <default>false</default>
+        <label>80-SUMINISTROS PARA AUTOMOCION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>81-COMPONENTES HIDRAULICOS</fullName>
+        <default>false</default>
+        <label>81-COMPONENTES HIDRAULICOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>82-COMPONENTES NEUMATICOS</fullName>
+        <default>false</default>
+        <label>82-COMPONENTES NEUMATICOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>83-AUTOMATISMOS ELECTRICOS</fullName>
+        <default>false</default>
+        <label>83-AUTOMATISMOS ELECTRICOS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>84-MEDICION CONTROL REGULACION</fullName>
+        <default>false</default>
+        <label>84-MEDICION CONTROL REGULACION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>86-MADERA</fullName>
+        <default>false</default>
+        <label>86-MADERA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>87-CARPINTERIA PREFABRICADA DE MADERA, METAL, PVC</fullName>
+        <default>false</default>
+        <label>87-CARPINTERIA PREFABRICADA DE MADERA, METAL, PVC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>88-EMPOTRABLES</fullName>
+        <default>false</default>
+        <label>88-EMPOTRABLES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>89-CHATARRAS DE FUNDICION</fullName>
+        <default>false</default>
+        <label>89-CHATARRAS DE FUNDICION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>90-UTENSILIOS DE COCINA Y MENAJE</fullName>
+        <default>false</default>
+        <label>90-UTENSILIOS DE COCINA Y MENAJE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>91-MÁQUINAS DE VENDING CONECTADAS</fullName>
+        <default>false</default>
+        <label>91-MÁQUINAS DE VENDING CONECTADAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>98-ELEMENTOS VARIOS DE FACTURACION</fullName>
+        <default>false</default>
+        <label>98-ELEMENTOS VARIOS DE FACTURACION</label>
+    </standardValue>
+</StandardValueSet>

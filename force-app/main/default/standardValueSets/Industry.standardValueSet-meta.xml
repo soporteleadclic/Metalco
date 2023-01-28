@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Serv. Generales / Mant. Construcción</fullName>
+        <default>false</default>
+        <label>Serv. Generales / Mant. Construcción</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mant. Industrial / Industria</fullName>
+        <default>false</default>
+        <label>Mant. Industrial / Industria</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construcción</fullName>
+        <default>false</default>
+        <label>Construcción</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Administración Púb. / Colectividad</fullName>
+        <default>false</default>
+        <label>Administración Púb. / Colectividad</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Metalistas</fullName>
+        <default>false</default>
+        <label>Metalistas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Obras Públicas</fullName>
+        <default>false</default>
+        <label>Obras Públicas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Revendedores</fullName>
+        <default>false</default>
+        <label>Revendedores</label>
+    </standardValue>
+</StandardValueSet>

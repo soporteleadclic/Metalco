@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Account Manager</fullName>
+        <default>false</default>
+        <label>Especialista EPIs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Channel Manager</fullName>
+        <default>false</default>
+        <label>Especialista Metalista</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Sponsor</fullName>
+        <default>false</default>
+        <label>Especialista Construcción</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Manager</fullName>
+        <default>false</default>
+        <label>Comercial Interno</label>
+    </standardValue>
+</StandardValueSet>

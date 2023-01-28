@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Cliente</fullName>
+    <active>true</active>
+    <description>Cuentas para poder realizar la prospección antes que lleguen a SAP</description>
+    <label>Pre-Cliente</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Administración Púb%2E %2F Colectividad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construcción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mant%2E Industrial %2F Industria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metalistas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obras Públicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revendedores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serv%2E Generales %2F Mant%2E Construcción</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Channel Partner %2F Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer - Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer - Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

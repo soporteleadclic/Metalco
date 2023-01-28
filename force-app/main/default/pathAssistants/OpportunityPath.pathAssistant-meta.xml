@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Opportunity</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>CloseDate</fieldNames>
+        <picklistValueName>Proposal/Price Quote</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>StageName</fieldNames>
+        <fieldNames>Probability</fieldNames>
+        <picklistValueName>Prospecting</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Amount</fieldNames>
+        <picklistValueName>Qualification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
